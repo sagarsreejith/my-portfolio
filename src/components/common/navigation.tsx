@@ -18,8 +18,8 @@ const Navigation = () => {
         letterSpacing: 2,
       }}
     >
-      {navArray.map((nav) => {
-        return <Box sx={{ cursor: 'pointer' }}>{nav.label}</Box>
+      {navArray.map((nav,  index ) => {
+        return <Box sx={{ cursor: 'pointer' }} key={index}>{nav.label}</Box>
       })}
     </Box>
   )
