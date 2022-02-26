@@ -1,5 +1,5 @@
 import Container from '@mui/material/Container';
-import  Navigation  from "../src/components/common/navigation";
+import  Navigation  from '../src/components/common/navigation';
 
 const Homepage = () => {
   return (
