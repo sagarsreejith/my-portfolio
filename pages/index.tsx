@@ -1,8 +1,6 @@
 import Container from '@mui/material/Container';
 import  Navigation  from "../src/components/common/navigation";
 
-const DEMO = 'JJJ';
-
 const Homepage = () => {
   return (
     <Container maxWidth="lg">
