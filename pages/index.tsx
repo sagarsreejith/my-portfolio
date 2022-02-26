@@ -1,6 +1,8 @@
 import Container from "@mui/material/Container";
 import  Navigation  from '../src/components/common/navigation';
 
+const KORANGAN_ARAV  = 'Korangan  Aaarav';
+
 const Homepage = () => {
   return (
     <Container maxWidth="lg">
