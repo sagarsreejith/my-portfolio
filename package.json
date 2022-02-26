@@ -9,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< Updated upstream
-=======
     "@emotion/cache": "^11.7.1",
     "@emotion/react": "^11.7.1",
     "@emotion/server": "^11.4.0",
@@ -19,7 +17,6 @@
     "@mui/material": "^5.0.0-rc.1",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "eslint-config-prettier": "^8.4.0",
->>>>>>> Stashed changes
     "next": "12.1.0",
     "prettier": "^2.5.1",
     "react": "17.0.2",
