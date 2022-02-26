@@ -1,4 +1,4 @@
-name: linting
+name: Lint
 
 on:
   push:
@@ -37,6 +37,4 @@ jobs:
         run: npm ci
 
       - name: Run code style check
-        with:
-          eslint: true
-          prettier: true
+        run: npm run lint
