@@ -1,7 +1,5 @@
 import Container from '@mui/material/Container';
-import  Navigation  from '../src/components/common/navigation';
-
-const DHEERAV  = 'Dheerav';
+import  Navigation  from "../src/components/common/navigation";
 
 const Homepage = () => {
   return (
