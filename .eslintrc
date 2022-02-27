@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": 2020, // Allows for the parsing of modern JS
+    "ecmaFeatures": {
+      "jsx": true // Allows for the parsing of JSX
+    }
+  },
+  "ignorePatterns": ["pages/_document.js"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules":  {
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-unused-vars": "error",
+    "prefer-const": "error",
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "max-len": 2
+  }
+}
