@@ -1,5 +1,5 @@
-import Container from '@mui/material/Container';
-import  Navigation  from '../src/components/common/navigation';
+import Container from '@mui/material/Container'
+import Navigation from '../src/components/common/navigation'
 
 const Homepage = () => {
   return (
@@ -8,7 +8,7 @@ const Homepage = () => {
       <h1>Home Page</h1>
       <p>lorem*15</p>
     </Container>
-  );
-};
+  )
+}
 
-export default Homepage;
+export default Homepage
