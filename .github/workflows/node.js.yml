@@ -9,6 +9,7 @@ on:
       - main
 
 jobs:
+  name: Run Linter and Build
   ci:
     runs-on: ${{ matrix.os }}
 
