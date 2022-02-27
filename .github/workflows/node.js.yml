@@ -9,11 +9,10 @@ on:
       - main
 
 jobs:
-  run_tests:
-    name: Run Linter and Get Build
   ci:
     runs-on: ${{ matrix.os }}
-
+    name: Run Linter and Get Build
+    
     strategy:
       matrix:
         os: [ubuntu-latest]
